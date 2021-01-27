@@ -35,16 +35,15 @@
 }
 
 .about{
-    width: 500px;
+    width: 475px;
     height: 260px;
     margin-top: 19px;
     margin-left: 22px;
     display: inline-block;
     background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
-    background-color: ;
 }
 
-.about h2{
+.about h2, .columns h2, .columns h3{
     background-image: linear-gradient( rgb(179,178,182), rgb(136,134,147), rgb(179,178,182));
     color: white;
     padding: 10px;
@@ -52,4 +51,18 @@
 
 .about p{
     padding: 10px;
+}
+
+.columns{
+    width: 300px;
+    height: 600px;
+    margin-left: 24px;
+    margin-top: 24px;
+    background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
+}
+
+.columns img{
+    border: none;
+    width: 300px;
+    margin: 0px;
 }
