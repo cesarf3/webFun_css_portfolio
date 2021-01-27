@@ -12,7 +12,7 @@
 .header h1{
     font-family: 'Schoolbell', cursive;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 24px;
     margin-right: 400px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .top{
-    background-image: linear-gradient(to bottom right, rgb(26,10,14), rgb(111,89,100), rgb(26,10,14));
+    background-image: radial-gradient(circle, rgb(26,10,14), rgb(111,89,100)); 
 }
 
 .top img{
@@ -40,10 +40,12 @@
     margin-top: 19px;
     margin-left: 22px;
     display: inline-block;
-    background-color: rgb(245,242,245);
+    background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
+    background-color: ;
 }
 
 .about h2{
     background-image: linear-gradient( rgb(179,178,182), rgb(136,134,147), rgb(179,178,182));
     color: white;
+    padding: 10px;
 }
