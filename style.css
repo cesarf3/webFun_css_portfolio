@@ -6,14 +6,14 @@
 .wrapper{
     background-color: rgb(247,247,247);
     font-family: 'Roboto', sans-serif;
-    width: 970px;
+    width: 940px;
 }
 
 .header h1{
     font-family: 'Schoolbell', cursive;
     display: inline-block;
     margin-left: 24px;
-    margin-right: 400px;
+    margin-right: 390px;
 }
 
 .header h3{
@@ -22,6 +22,17 @@
 
 .top{
     background-image: radial-gradient(circle, rgb(111,89,100), rgb(26,10,14)); 
+    height: 920px;
+}
+
+.aboutMain img{
+    width: 380px;
+    height: 250px;
+    border: 5px solid rgb(184,184,184);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 19px;
+    margin-left: 24px;
 }
 
 .about{
@@ -33,20 +44,10 @@
     background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
 }
 
-.about img{
-    width: 380px;
-    height: 250px;
-    border: 5px solid rgb(184,184,184);
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 19px;
-    margin-left: 24px;
-}
-
-.about h2, .columns h2, .columns h3{
+.about h2, .columns h2{
     background-image: linear-gradient( rgb(179,178,182), rgb(136,134,147), rgb(179,178,182));
     color: white;
-    padding: 10px;
+    padding: 7px 0px 7px 10px;
 }
 
 .about p{
@@ -54,16 +55,57 @@
 }
 
 .columns{
-    width: 300px;
-    height: 600px;
+    width: 278px;
+    height: 590px;
+    display: inline-block;
+    vertical-align: top;
     margin-left: 24px;
     margin-top: 24px;
     background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
 }
 
 .columns img{
-    border: none;
-    width: 300px;
-    margin: 0px;
+    width: 278px;
+    height: 140px;
+    padding: 0px;
+}
 
+.columns p{
+    padding: 10px;
+}
+
+.columns h4{
+    background-image: linear-gradient( rgb(179,178,182), rgb(136,134,147), rgb(179,178,182));
+    color: white;
+    padding: 4px 0px 4px 10px;
+    font-weight: bolder;
+}
+
+#tech_images li{
+    display: inline-block;
+}
+
+#tech_images img{
+    width: 40px;
+    height: 40px;
+    padding: 10px 0 0 10px;
+}
+
+.columns button{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.footer img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer li{
+    display: inline-block;
 }
