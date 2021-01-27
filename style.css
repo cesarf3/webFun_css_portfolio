@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    background-color: rgb(247,247,247);
+}
+
+.top{
+    background-image: linear-gradient(to bottom right, rgb(26,10,14), rgb(111,89,100), rgb(26,10,14));
+}
