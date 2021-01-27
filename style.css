@@ -21,7 +21,7 @@
 }
 
 .top{
-    background-image: radial-gradient(circle, rgb(26,10,14), rgb(111,89,100)); 
+    background-image: radial-gradient(circle, rgb(111,89,100), rgb(26,10,14)); 
 }
 
 .top img{
@@ -65,4 +65,5 @@
     border: none;
     width: 300px;
     margin: 0px;
+    
 }
