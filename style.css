@@ -81,11 +81,11 @@
     font-weight: bolder;
 }
 
-#tech_images li{
+.tech_images li{
     display: inline-block;
 }
 
-#tech_images img{
+.tech_images img{
     width: 40px;
     height: 40px;
     padding: 10px 0 0 10px;
