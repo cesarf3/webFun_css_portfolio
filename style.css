@@ -24,16 +24,6 @@
     background-image: radial-gradient(circle, rgb(111,89,100), rgb(26,10,14)); 
 }
 
-.top img{
-    width: 380px;
-    height: 250px;
-    border: 5px solid rgb(184,184,184);
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 19px;
-    margin-left: 24px;
-}
-
 .about{
     width: 475px;
     height: 260px;
@@ -41,6 +31,16 @@
     margin-left: 22px;
     display: inline-block;
     background-image: linear-gradient(to right, rgb(253,252,253), rgb(218,199,214));
+}
+
+.about img{
+    width: 380px;
+    height: 250px;
+    border: 5px solid rgb(184,184,184);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 19px;
+    margin-left: 24px;
 }
 
 .about h2, .columns h2, .columns h3{
@@ -65,5 +65,5 @@
     border: none;
     width: 300px;
     margin: 0px;
-    
+
 }
