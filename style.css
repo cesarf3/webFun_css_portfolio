@@ -101,9 +101,20 @@
     margin-left: 100px;
 }
 
+.footer p{
+    margin-left: 350px;
+    padding: 5px;
+}
+
+.footer ul{
+    margin-left: 300px;
+    padding: 5px 1px 5px 1px;
+}
+
 .footer img{
     width: 20px;
     height: 20px;
+    padding-right: 4px;
 }
 
 .footer li{
